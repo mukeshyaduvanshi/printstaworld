@@ -2,9 +2,9 @@ import React from 'react'
 import BrowserSlider from '../Sliders/BrowserSlider'
 import Packaging from '../Sliders/Packaging'
 import Stationery from '../Sliders/Stationery'
-import SignMarkiting from '../Sliders/SignMarkiting'
 import PopularProducts from '../Cards/PopularProducts'
 import Cards from '../Cards/Cards'
+import SignsMarketing from '../Sliders/SignsMarketing'
 
 
 function Home() {
@@ -17,7 +17,7 @@ function Home() {
     <Cards/>
     <Packaging/>
     <Stationery/>
-    <SignMarkiting/>
+    <SignsMarketing/>
     </div>
     </div>
     </>

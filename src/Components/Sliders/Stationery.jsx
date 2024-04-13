@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 
 function SampleNextArrow(props) {
@@ -62,10 +63,12 @@ function Stationery() {
    <Slider {...settings}>
     {productData.map((item)=>(
       <div className='bg-white my-5 w-40 rounded-xl'>
+        <Link to="">
         <div className='m-2 mb-0 flex justify-center items-center'>
         <img className='w-full h-52' src={item.url} alt="" />
         </div>
         <p className='text-center p-3'>{item.name}</p>
+        </Link>
       </div>
     ))}
     </Slider>

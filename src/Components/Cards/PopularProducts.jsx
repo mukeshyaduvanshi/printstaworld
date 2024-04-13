@@ -6,7 +6,7 @@ function PopularProducts() {
         <div className='text-center mt-10 mb-2 text-2xl font-semibold'>Popular Products</div>
     <div className='flex flex-wrap'>
         {data.map((item)=>(
-        <div className='w-56 my-10 ml-2'>
+        <div className='w-56 my-10 ml-2'>    
             <img src="./img/product/round-card.jpg" alt="" />
             <p className='text-center my-2'>{item.title}</p>
         </div>
@@ -19,7 +19,7 @@ function PopularProducts() {
 export const data = [
     {
         img:"",
-        title:"Bussiness Cards"
+        title:"Business Cards"
     },
     {
         img:"",

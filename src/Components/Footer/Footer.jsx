@@ -94,7 +94,7 @@ function Footer() {
     </div>
     <div className='flex bg-black text-white justify-center h-20 items-center'>
       <div className='flex text-white items-center'> 
-        <img className='size-5' src="./img/icons/copyright.png" alt="" />
+        <img className='size-5' src="/img/icons/copyright.png" alt="" />
         <Link to="/" className='font-bold'>PRINTSTAWORLD</Link>
       </div>
       <div className='px-2'>All Rights Reserved.</div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -37,31 +38,33 @@ function Header() {
         </div>
         <div className="flex h-16 justify-between px-5 w-[1390px] ml-auto mr-auto">
           <div className="flex items-center">
+            <Link to='/'>
             <img
               className="w-14 h-14 mr-4"
-              src="./img/icons/printstaworld-logo.png"
+              src="/img/icons/printstaworld-logo.png"
               alt=""
-            />
+              />
+              </Link>
             <div className="flex h-10 m-10 p-2 rounded-[0.2rem] items-center border border-solid border-gray-300">
               <input
                 className="outline-none ml-4"
                 type="text"
                 placeholder="Search"
               />
-              <img className="w-4 h-4 " src="./img/icons/search.png" alt="" />
+              <img className="w-4 h-4 " src="/img/icons/search.png" alt="" />
             </div>
           </div>
           <div className="flex items-center">
             <button className="flex items-center m-4">
-              <img className="w-6 h-6 m-2" src="./img/icons/chat.png" alt="" />
+              <img className="w-6 h-6 m-2" src="/img/icons/chat.png" alt="" />
               <p>Help Center</p>
             </button>
             <button className="flex items-center m-4">
-              <img className="w-6 h-6 m-2" src="./img/icons/user.png" alt="" />
+              <img className="w-6 h-6 m-2" src="/img/icons/user.png" alt="" />
               <p>Login/Signup</p>
             </button>
             <button className="flex m-4">
-              <img className="w-6 h-6" src="./img/icons/cart.png" alt="" />
+              <img className="w-6 h-6" src="/img/icons/cart.png" alt="" />
             </button>
           </div>
         </div>
