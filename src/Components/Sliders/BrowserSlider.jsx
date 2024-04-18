@@ -107,8 +107,8 @@ export const productData = [
   {
     id:5,
     img:"./img/product/calender.jpg",
-    name:"Calender",
-    url:"/categories/calender"
+    name:"Calendars",
+    url:"/categories/calendars"
   },
   {
     id:6,

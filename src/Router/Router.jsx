@@ -6,7 +6,7 @@ import BusinessCard from '../Components/Categories/BusinessCard'
 import Stationary from '../Components/Categories/Stationary'
 import CorporateGifts from '../Components/Categories/CorporateGifts'
 import PhotoGifts from '../Components/Categories/PhotoGifts'
-import Calender from '../Components/Categories/Calender'
+import Calendars from '../Components/Categories/Calendars'
 import Marketing from '../Components/Categories/Marketing'
 import Drinkware from '../Components/Categories/Drinkware'
 import Packing from '../Components/Categories/Packing'
@@ -23,7 +23,7 @@ function Router() {
                 <Route path='/categories/stationary' element={<Stationary/>} />
                 <Route path='/categories/corporate-gifts' element={<CorporateGifts/>} />
                 <Route path='/categories/photo-gifts' element={<PhotoGifts/>} />
-                <Route path='/categories/calender' element={<Calender/>} />
+                <Route path='/categories/calendars' element={<Calendars/>}/>
                 <Route path='/categories/marketing' element={<Marketing/>} />
                 <Route path='/categories/drinkware' element={<Drinkware/>} />
                 <Route path='/categories/packing' element={<Packing/>} />
