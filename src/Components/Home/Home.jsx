@@ -1,10 +1,10 @@
 import React from 'react'
 import BrowserSlider from '../Sliders/BrowserSlider'
-import Packaging from '../Sliders/Packaging'
-import Stationery from '../Sliders/Stationery'
+// import Packaging from '../Sliders/Packaging'
+// import Stationery from '../Sliders/Stationery'
 import PopularProducts from '../Cards/PopularProducts'
 import Cards from '../Cards/Cards'
-import SignsMarketing from '../Sliders/SignsMarketing'
+// import SignsMarketing from '../Sliders/SignsMarketing'
 
 
 function Home() {
@@ -15,9 +15,9 @@ function Home() {
     <BrowserSlider/>
     <PopularProducts/>
     <Cards/>
-    <Packaging/>
-    <Stationery/>
-    <SignsMarketing/>
+    {/* <Packaging/> */}
+    {/* <Stationery/> */}
+    {/* <SignsMarketing/> */}
     </div>
     </div>
     </>

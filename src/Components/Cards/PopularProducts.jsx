@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function PopularProducts() {
   return (
@@ -6,9 +7,11 @@ function PopularProducts() {
         <div className='text-center mt-10 mb-2 text-2xl font-semibold'>Popular Products</div>
     <div className='flex flex-wrap'>
         {data.map((item)=>(
-        <div className='w-56 my-10 ml-2'>    
-            <img src="./img/product/round-card.jpg" alt="" />
+        <div className='w-56 my-10 ml-2'>
+            <Link to={item.link}>
+            <img src={item.img} alt="" />
             <p className='text-center my-2'>{item.title}</p>
+            </Link>
         </div>
         ))}
     </div>
@@ -18,52 +21,76 @@ function PopularProducts() {
 
 export const data = [
     {
-        img:"",
-        title:"Business Cards"
+        id:1,
+        img:"/img/PopularProducts/BusinessCards.png",
+        title:"Business Cards",
+        link:"/categories/business-card"
     },
     {
-        img:"",
-        title:"Apparel"
+        id:2,
+        img:"/img/PopularProducts/Apparel.png",
+        title:"Apparel",
+        link:"/categories/apparel"
     },
     {
-        img:"",
-        title:"Corporate Gifts"
+        id:3,
+        img:"/img/PopularProducts/CorporateGifts.png",
+        title:"Corporate Gifts",
+        link:"/categories/corporate-gifts"
     },
     {
-        img:"",
-        title:"Drinkware"
+        id:4,
+        img:"/img/PopularProducts/Drinkware.png",
+        title:"Drinkware",
+        link:"/categories/drinkware"
     },
     {
-        img:"",
-        title:"Mailer Box"
+        id:5,
+        img:"/img/PopularProducts/MailerBoxes.png",
+        title:"Mailer Boxes",
+        link:"/categories/mailer-boxes"
     },
     {
-        img:"",
-        title:"Awards"
+        id:6,
+        img:"/img/PopularProducts/Awards.png",
+        title:"Awards",
+        link:"/categories/awards"
     },
     {
-        img:"",
-        title:"Stickers"
+        id:7,
+        img:"/img/PopularProducts/Stickers.png",
+        title:"Stickers",
+        link:"/categories/stickers"
     },
     {
-        img:"",
-        title:"Name Plates"
+        id:8,
+        img:"/img/PopularProducts/NamePlates.png",
+        title:"Name Plates",
+        link:"/categories/name-plates"
     },
     {
-        img:"",
-        title:"Bagpacks"
+        id:9,
+        img:"/img/PopularProducts/Backpacks.png",
+        title:"Backpacks",
+        link:"/categories/backpacks"
     },
     {
-        img:"",
-        title:"Labels"
+        id:10,
+        img:"/img/PopularProducts/Labels.png",
+        title:"Labels",
+        link:"/categories/labels"
     },
     {
-        img:"",
-        title:"Courier Poly Bag"
+        id:11,
+        img:"/img/PopularProducts/CourierPloyBag.png",
+        title:"Courier Ploy Bag",
+        link:"/categories/courier-poly-bag"
     },
     {
-        img:"",
-        title:"Posters"
+        id:12,
+        img:"/img/PopularProducts/Posters.png",
+        title:"Posters",
+        link:"/categories/posters"
     },
 ]
 

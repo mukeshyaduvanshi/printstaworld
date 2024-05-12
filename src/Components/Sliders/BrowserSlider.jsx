@@ -112,13 +112,13 @@ export const productData = [
   },
   {
     id:6,
-    img:"./img/product/stande.png",
+    img:"./img/product/packing.jpg",
     name:"Marketing",
     url:"/categories/marketing"
   },
   {
     id:7,
-    img:"./img/product/stande.png",
+    img:"./img/product/packing.jpg",
     name:"Drinkware",
     url:"/categories/drinkware"
   },
@@ -130,7 +130,7 @@ export const productData = [
   },
   {
     id:9,
-    img:"./img/product/packing.jpg",
+    img:"./img/product/Awards.png",
     name:"Awards",
     url:"/categories/awards"
   },
