@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { PhotoGiftsData } from '../../features/productData'
 
 function PhotoGifts() {
+
+  const data = PhotoGiftsData
+
   return (
     <>
     <div className='w-full flex justify-center my-10'>
@@ -32,79 +36,6 @@ function PhotoGifts() {
   )
 }
 
-export const data = [
-  {
-    id:1,
-    img:"/img/photoGifts/PhotoWithWoodenStand.png",
-    name:"Photo With Woodan Stand",
-    price:"649",
-    title:"for 1 Wooden Stand",
-    link:""
-  },
-  {
-    id:2,
-    img:"/img/photoGifts/PhotoFrames.png",
-    name:"Photo Frames",
-    price:"348",
-    title:"for 1 Frame",
-    link:""
-  },
-  {
-    id:3,
-    img:"/img/photoGifts/AcrylicPhotoPrints.png",
-    name:"Acrylic Photo Prints",
-    price:"383",
-    title:"for 1 Acrylic print",
-    link:""
-  },
-  {
-    id:4,
-    img:"/img/photoGifts/PhotoPrints.png",
-    name:"Photo Prints",
-    price:"12.39",
-    title:"each for 15 Prints",
-    link:""
-  },
-  {
-    id:5,
-    img:"/img/photoGifts/PhotoBooks.png",
-    name:"Photo Books",
-    price:"782",
-    title:"for 1 Book",
-    link:""
-  },
-  {
-    id:6,
-    img:"/img/photoGifts/CanvasPrints.png",
-    name:"Canvas Prints",
-    price:"728",
-    title:"for 1 wrap",
-    link:""
-  },
-  {
-    id:7,
-    img:"/img/photoGifts/PhotoMugs.png",
-    name:"Photo Mugs",
-    price:"302",
-    title:"for 1 Mug",
-    link:""
-  },
-  {
-    id:8,
-    img:"/img/photoGifts/LEDPhotoFrames.png",
-    name:"LED Photo Frames",
-    price:"2832",
-    title:"for 1 frame",
-    link:""
-  },
-  {
-    id:9,
-    img:"/img/photoGifts/FridgeMagnets.png",
-    name:"Fridge Magnets",
-    price:"392",
-    title:"for 1 Magnet",
-    link:""
-  },
-]
+
 
 export default PhotoGifts

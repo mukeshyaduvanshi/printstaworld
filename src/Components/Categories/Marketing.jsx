@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { MarketingData } from "../../features/productData";
 
 function Marketing() {
+
+  const data = MarketingData
+
   return (
     <>
     <div className='w-full flex justify-center my-10'>
@@ -32,143 +36,6 @@ function Marketing() {
   )
 }
 
-export const data = [
-  {
-    id:1,
-    img:"/img/marketing/Standees.png",
-    name:"Standees",
-    price:"2761",
-    title:"for 1 Qty",
-    link:""
-  },
-  {
-    id:2,
-    img:"/img/marketing/Booklets.png",
-    name:"Booklets",
-    price:"95",
-    title:"for 1 Qty",
-    link:""
-  },
-  {
-    id:3,
-    img:"/img/marketing/Flyers.png",
-    name:"Flyers",
-    price:"149",
-    title:"for 25 Qty",
-    link:""
-  },
-  {
-    id:4,
-    img:"/img/marketing/Brochures.png",
-    name:"Brochures",
-    price:"346",
-    title:"for 10 Qty",
-    link:""
-  },
-  {
-    id:5,
-    img:"/img/marketing/SunboardPosters.png",
-    name:"Sunboard Posters",
-    price:"625",
-    title:"for 1 Qty",
-    link:""
-  },
-  {
-    id:6,
-    img:"/img/marketing/Banners.png",
-    name:"Banners",
-    price:"1003",
-    title:"for 1 Qty",
-    link:""
-  },
-  {
-    id:7,
-    img:"/img/marketing/FabricSignBoard.png",
-    name:"Fabric Sign Board",
-    price:"590",
-    title:"for 1 Qty",
-    link:""
-  },
-  {
-    id:8,
-    img:"/img/marketing/AcrylicSignBoard.png",
-    name:"Acrylick Sign Board",
-    price:"2596",
-    title:"for 1 Qty",
-    link:""
-  },
-  {
-    id:9,
-    img:"/img/marketing/NamePlate.png",
-    name:"Name Plate",
-    price:"1209",
-    title:"for 1 Qty",
-    link:""
-  },
-  {
-    id:10,
-    img:"/img/marketing/Posters.png",
-    name:"Posters",
-    price:"38",
-    title:"for 1 Qty",
-    link:""
-  },
-  {
-    id:11,
-    img:"/img/marketing/AcrylicDeskStands.png",
-    name:"Acrylic Desk Stands",
-    price:"116",
-    title:"for 1 Qty",
-    link:""
-  },
-  {
-    id:12,
-    img:"/img/marketing/TentCard.png",
-    name:"Tent Card",
-    price:"277",
-    title:"for 10 Qty",
-    link:""
-  },
-  {
-    id:13,
-    img:"/img/marketing/Cards.png",
-    name:"Cards",
-    price:"29",
-    title:"for 10 Qty",
-    link:""
-  },
-  {
-    id:14,
-    img:"/img/marketing/Decals.png",
-    name:"Decals",
-    price:"147",
-    title:"for 1 Qty",
-    link:""
-  },
-  {
-    id:15,
-    img:"/img/marketing/Dangler.png",
-    name:"Dangler",
-    price:"123",
-    title:"for 5 Qty",
-    link:""
-  },
-  {
-    id:16,
-    img:"/img/marketing/LEDFrames.png",
-    name:"LED Frames",
-    price:"2832",
-    title:"for 1 Qty",
-    link:""
-  },
-  {
-    id:17,
-    img:"/img/marketing/Canvas.png",
-    name:"Canvas",
-    price:"800",
-    title:"for 1 Qty",
-    link:""
-  },
-]
+
 
 export default Marketing

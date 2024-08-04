@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { CalendarsData } from '../../features/productData'
 
 function Calendars() {
+
+  const data = CalendarsData
+
   return (
     <>
     <div className='w-full flex justify-center my-10'>
@@ -33,79 +37,6 @@ function Calendars() {
   )
 }
 
-export const data = [
-  {
-    id:1,
-      img:"/img/calendars/A5LandscapeCalendar.png",
-      name:"A5 Landscape Calendar",
-      price:"135",
-      title1:"Printing on Premium Paper",
-      title2:"as low as",
-      link:""
-  },
-  {
-    id:2,
-      img:"/img/calendars/A5PortraitCalendar.png",
-      name:"A5 Portrait Calendar",
-      price:"135",
-      title1:"Printing on Premium Paper",
-      title2:"as low as",
-      link:""
-  },
-  {
-    id:3,
-      img:"/img/calendars/BigSquareCalendar.png",
-      name:"Big Square Calendar",
-      price:"224",
-      title1:"Printing on Premium Paper",
-      title2:"as low as",
-      link:""
-  },
-  {
-    id:4,
-      img:"/img/calendars/WallCalendar.png",
-      name:"Wall Calendar",
-      price:"224",
-      title1:"Printing on Premium Paper",
-      title2:"as low as",
-      link:""
-  },
-  {
-    id:5,
-      img:"/img/calendars/LongCalendar.png",
-      name:"Long Calendar",
-      price:"128",
-      title1:"Printing on Premium Paper",
-      title2:"as low as",
-      link:""
-  },
-  {
-    id:6,
-      img:"/img/calendars/MiniWoodenCalendar.png",
-      name:"Mini Wooden Calendar",
-      price:"141",
-      title1:"Printing on Premium Paper",
-      title2:"as low as",
-      link:""
-  },
-  {
-    id:7,
-      img:"/img/calendars/CalendarWithPhoto.png",
-      name:"Calendar With Photo",
-      price:"171",
-      title1:"Printing on Premium Paper",
-      title2:"as low as",
-      link:""
-  },
-  {
-    id:8,
-      img:"/img/calendars/FrameCalendars.png",
-      name:"Frame Calendars",
-      price:"199",
-      title1:"Printing on Premium Paper",
-      title2:"as low as",
-      link:""
-  },
-]
+
 
 export default Calendars

@@ -4,34 +4,13 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <>
-      <header className="w-auto ml-auto mr-auto">
-        <div
-          className="
-      flex bg-[#E1E1E1]
-      justify-between
-      items-center
-      uppercase
-      "
-        >
-          <div
-            className="
-        ml-10
-        "
-          >
+      <header className="w-auto ml-auto mr-auto    bg-white z-40 shadow-xl shadow-gray-400">
+        <div className="flex bg-[#E1E1E1] justify-between items-center uppercase">
+          <div className="ml-10">
             <p>Free Shipping for all orders of &#x20b9;999</p>
           </div>
-          <div
-            className="
-        mr-10
-        "
-          >
-            <button
-              className="
-          bg-[#842C83] p-3 
-          text-white
-          uppercase
-          "
-            >
+          <div className="mr-10">
+            <button className="bg-[#842C83] p-3 text-white uppercase">
               Business solution
             </button>
           </div>

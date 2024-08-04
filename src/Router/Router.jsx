@@ -19,6 +19,9 @@ import MailerBoxes from '../Components/Categories/MailerBoxes'
 import Posters from '../Components/Categories/Posters'
 import Stickers from '../Components/Categories/Stickers'
 import NamePlates from '../Components/Categories/NamePlates'
+import CostomeProduct from '../CostomeProduct/CostomeProduct'
+import LoginForm from '../Components/LoginForm'
+
 
 
 
@@ -44,6 +47,8 @@ function Router() {
                 <Route path='/categories/name-plates' element={<NamePlates/>} />
                 <Route path='/categories/posters' element={<Posters/>} />
                 <Route path='/categories/stickers' element={<Stickers/>} />
+                <Route path='/costome-product' element={<CostomeProduct/>} />
+                <Route path='/login' element={<LoginForm/>} />
             </Route>
         )
     )

@@ -86,7 +86,7 @@ export const data = [
         title:"Courier Ploy Bag",
         link:"/categories/courier-poly-bag"
     },
-    {
+    {   
         id:12,
         img:"/img/PopularProducts/Posters.png",
         title:"Posters",
